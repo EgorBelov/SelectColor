@@ -45,6 +45,7 @@ namespace LabControls
             }
             while (!ok);
 
+
             if (Convert.ToInt32(Text) > 255)
                 Text = "255";
             if (Convert.ToInt32(Text) < 0)
